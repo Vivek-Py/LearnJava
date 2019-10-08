@@ -1,31 +1,28 @@
-
-
-![image description](google.com/imgres?imgurl=https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/bf8cb28a-a019-447d-8704-e443e13573e9/File/e19ea0216ae8395bd4b3389970928be9/java_logo.png&imgrefurl=https://blogs.oracle.com/oracleuniversity/understanding-java-packages&docid=buaXjowTrbHZyM&tbnid=XPkuci3FCslUhM:&vet=1&w=1200&h=900&source=sh/x/im)
 # Java
 Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programing language and all constants or variables are defined for a given program).
+
 ### Data Types:
 They are basically of two types:
 1. Primitive data type
 1. Object data type
+Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 
-:sound:Primitive consists of boolean, byte, char, short, int, long, float, double. Whereas Object consists of programmer created types.
 ### Variables in Java:
 A variable is the name given to a menmory location. It is the basic unit of storage in a program.
 For declaring a variable it includes data type, variable name and value.
 For Eg. `int cost = 20;`
 Here `int` is data type ,`cost` is variable name and `20` is value.
+
 ### Java Identifiers:
 In Java, an identifier can be a class name, method name, variable name or a label. There are certain rules to define java identifiers:
 
 1. Only alphanumeric characters are allowed as identifiers i.e. [A-Z], [a-z], [0-9] and '$', '_'.
 
-1. Identifiers should not start with digit[0-9].
+2. Identifiers should not start with digit[0-9].
 
-1. Special characters like @ and & are also not allowed.
+3. Special characters like @ and & are also not allowed.
 
-1. [*Reserved words*](https://www.computerhope.com/jargon/j/java_reserved_words.htm) can't be used.
-
-Here is the first java program-[*Hello World*](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/HelloWorld.java)
+4. *Reserved words* can't be used.
 
 #### Basic Syntax in Java:
 About Java programs, there are some very important rules to keep in mind they are as follows:
@@ -47,31 +44,23 @@ Example: `public void myMethodName()`
 ##### Program File Name
 Name of the program file should exactly match the class name.
 
-:unlock:When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile).
-
-:unlock:But please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
+When saving the file, you should save it using the class name (Remember Java is case sensitive) and append '.java' to the end of the name (if the file name and the class name do not match, your program will not compile) but please make a note that in case you do not have a public class present in the file then file name can be different than class name. It is also not mandatary to have a public class in the file.
 
 Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 
 ##### public static void main(String args[]) 
 Java program processing starts from the main() method which is a mandatary part of every Java program.
 
-
-
-
 ### OOP Concept:
-![alt text](https://stackify.com/wp-content/uploads/2017/04/java-oops-793x397.jpg)
-
 Java is an object oriented programming language. The main aim of OOP is to bind together the data and the functions that operate so that no other part of the code can access this data except that function.
 <dd>OOPs Concept INCLUDES: </dd>
-:sound:1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
 
+1)<B>Polymorphism-</B> Way to differentiate between entities with the same name efficiently.
   For example:[here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/polymorphism.java)
 
+2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
 
-:sound:2)<B> Inheritance-</B> Mechanism by which one class can inherit the features of another class.
-
-:sound:3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
+3)<B> Object-</B> It the most basic unit of OOPs. An object consists of : 
  
  - State: It is represented by attributes of an object. It also reflects the properties of an object.
  
@@ -81,7 +70,7 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
  
  A simple program to explain the concept of object can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Object.java).
 
-:sound:4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created. It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
+4)<B>Classes-</B>Class is a user defined blueprint or prototype from which objects are created. It shows the set of properties that are common to all objects of same type. In general, class declarations includes:
 
 - Modifiers : A class can be public or has default access.
 
@@ -167,7 +156,9 @@ So lets discuss in detail;
 Array is basically declared as:
 
 :arrow_right:   type var-name[];
-  ###### OR
+
+###### OR
+
 :arrow_right:   type[] var-name;
 
 Now moving on to the next step that is intialising an array.It basically refers to assigning a initial condition/value to the array.
