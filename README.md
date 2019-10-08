@@ -198,24 +198,10 @@ Example we create an array called students and we stored the list of all student
 //Let the boy named Deepak is having the roll no.12, so the output will be "Deepak".
 
 #### Arrays of Objects
-Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
-
-Would you like to guess the output?
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
 
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
-
-So now lets look toowards the output of the [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
-
-
-```Element at 0 : 1 Atharv
-Element at 1 : 2 Vaibhav
-Element at 2 : 3 Gargi
-Element at 3 : 4 Sunil
-Element at 4 : 5 Shikhar
-```
-
 
 #### Overriding in Java
 The benefit of overriding is: ability to define a behavior that's specific to the subclass type, which means a subclass can implement a parent class method based on its requirement.
