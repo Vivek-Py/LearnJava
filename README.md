@@ -1,6 +1,6 @@
 
 
-![alt text](https://images.app.goo.gl/t3bm7JZmtMSpvWzf9)
+![image description](https://images.app.goo.gl/t3bm7JZmtMSpvWzf9)
 # Java
 Java is one of the most popular and widely used programming language and platform. It is fast, reliable and secure. Also java is *object-oriented programming* language. Java is *statically type language* (because the type of data is predefined as part of the programing language and all constants or variables are defined for a given program).
 ### Data Types:
