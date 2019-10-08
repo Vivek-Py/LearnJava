@@ -82,7 +82,7 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
  
  A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
- # NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.
+#### NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.
 
 Example of Class and Object together is [here](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ClassAndObject.java).
 
