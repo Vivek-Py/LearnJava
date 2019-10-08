@@ -200,13 +200,13 @@ Example we create an array called students and we stored the list of all student
 #### Arrays of Objects
 Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
 
-Would you like to guees the output:question::question:.
+Would you like to guess the output?
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
 
 ###### Syntax:
 ```Class obj[]= new Class[array_length]```
 
-So now lets look toowards the output of the :arrow_double_up:[example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
+So now lets look toowards the output of the [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java). The output will be:
 
 
 ```Element at 0 : 1 Atharv
