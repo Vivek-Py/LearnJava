@@ -82,14 +82,12 @@ Java is an object oriented programming language. The main aim of OOP is to bind 
  
  A simple program to explain the concept of classes can be found [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class.java).
 
- ##### :star::star:NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.:star: :star:
+ # NOTE: When class is defined, only the specification for the object is defined; no memory or storage is allocated. To access members defined within the class, you need to create objects.
 
 Example of Class and Object together is [here](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ClassAndObject.java).
 
 ### Object Cloning in Java
-#### Is cloning possible in real life ?? :joy::joy:
-![alt text](https://s3.amazonaws.com/lowres.cartoonstock.com/science-human_cloning-clones-genetic_engineering-cartoon--cgrn5_low.jpg)
-
+#### Is cloning possible in our life ?
 Cloning basically means creating a exact copy of an object. The clone() method of Object class is used to clone an object.
 The java.lang. Cloneable interface must be implemented by the class whose object clone we want to create. Else clone() method generates CloneNotSupportedException.
 
@@ -98,6 +96,7 @@ java
 protected Object clone() throws CloneNotSupportedException
     
 The clone() method is defined in the Object class.
+
 #### *Why do we need this clone() method??*
 This clone() method saves the extra prosessing task for creating the exact copy of an object. If we perform it by using the new keyword, it will take a lot of time that is why we use object cloning. 
 Example of clone() method is [here](https://github.com/Starcode71Ooze/JAVA-JET/blob/master/Class%20and%20Objects.java).
@@ -137,36 +136,35 @@ Syntax:
 Syntax:
 Eg:     `intArray[0]=n; // Assigns an integer value (n=any number) to the first element 0 of the array`
 
-:mag:To declare an array, define the variable type with square brackets.
+To declare an array, define the variable type with square brackets.
 
 While working in array we may need to access the terms that are stored in that an array.We do that by referring to the `index number`. Arrays can store data in form of primitive data type or in form of an objects of a class. If it stores as primitive data type then data is stored at memory location or else as a heap segment.
 
 There are two types of array we learn about:
 
-:one: One-Dimensionnal Array
+1) One-Dimensionnal Array
 
-:two: Multi-Dimensional Array
+2) Multi-Dimensional Array
 
 So lets discuss in detail; 
 
-:one:One-dimensional array declaration has two components: *the type and the name.* 
+1) One-dimensional array declaration has two components: *the type and the name.* 
 
 *type* declares the element type of the array. The element type determines the data type of each element that comprises the array. Like array of int type, we can also create have an array of primitive data types like char, float, double..etc or user defined data type(objects of a class). Thus, the element type for the array determines what type of data the array will hold.
 
 Array is basically declared as:
-
-:arrow_right:   type var-name[];
+   type var-name[];
 
 ###### OR
-
-:arrow_right:   type[] var-name;
-
+ 
+   type[] var-name;
+ 
 Now moving on to the next step that is intialising an array.It basically refers to assigning a initial condition/value to the array.
 Syntax:
 
 `variable-name = new type [size];`
 
-:warning: *type specifies* 
+ *type specifies* 
 
 The type of data being allocated, size specifies the number of elements in the array, and var-name is the name of array variable that is linked to the array. That is, to use new to allocate an array, you must specify the type and number of elements to allocate.
 
@@ -182,7 +180,7 @@ where n=any whole number
 
 - Obtaining an array is a two-step process. First, you must declare a variable of the desired array type. Second, you must allocate the memory that will hold the array, using new, and assign it to the array variable.
 
-:heavy_exclamation_mark:Our above example can we written as this also:
+Our above example can we written as this also:
 
 `int[] intArray = new int[20];` // combining both statements as one statement.
 
@@ -190,7 +188,7 @@ where n=any whole number
 #### Array Literals
 This type is used when we already know about the array like variables and size of the array.
 
-:mag: There is no need to write the `new int[]` part.
+ There is no need to write the `new int[]` part.
 
 
 #### Accessing Array elements
@@ -202,7 +200,7 @@ Example we create an array called students and we stored the list of all student
 #### Arrays of Objects
 Lets at first consider an [example](https://github.com/ShivangiSingh17/Java-Jet/blob/master/ObjectArray.java) . 
 
-:question::question:Would you like to guees the output:question::question:.
+Would you like to guees the output:question::question:.
 Just like general arrays the difference with the array of objects is that it stores objects in the array whereas the general array stores integers, variables, boolean etc. Also the array elements store the location of reference variables of the object.
 
 ###### Syntax:
