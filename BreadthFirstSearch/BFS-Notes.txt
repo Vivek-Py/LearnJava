@@ -1,0 +1,10 @@
+## Breadth First Search
+
+The difference between BFS in a tree and BFS in a graph is that graphs may
+contain cycles. To process one node only once, we keep track of visited nodes.
+
+When we start from a node, BFS first explores all the children of that node,
+prior to moving on to nodes at the next depth level.
+
+The time complexity of the BFS algorithm is O(|V| + |E|) where V is the number
+of vertices and E is the number of edges.
