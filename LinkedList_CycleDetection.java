@@ -39,7 +39,7 @@ public class LinkedList_CycleDetection {
   
     public static void main(String[] args) 
     { 
-        LinkedList llist = new LinkedList(); 
+        LinkedList_CycleDetection llist = new LinkedList_CycleDetection(); 
   
         llist.push(20); 
         llist.push(4); 
