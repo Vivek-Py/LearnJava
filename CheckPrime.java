@@ -17,7 +17,7 @@ public class CheckPrime {
                 flag++;
                 break;
             }
-        }
+        }       //Code to print the result we got
         if (num == 1 || num == 0 || num < 0) {
             System.out.println("The number " + num + " is neither a prime nor a composite number.");
         } else if (flag == 0) {
